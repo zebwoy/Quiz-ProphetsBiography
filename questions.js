@@ -4,8 +4,8 @@ let questions = [
     question: "At which day was the Prophet Muhammad صلى الله عليه وسلم born?",
     answer: "He was born on a Monday.",
     options: [
-      "He was born on a Monday.",
       "He was born on a Tuesday.",
+      "He was born on a Monday.",
       "He was born on a Friday.",
       "He was born on a Sunday."
     ]
@@ -15,10 +15,10 @@ let questions = [
     question: "Where was the Prophet Muhammad صلى الله عليه وسلم born?",
     answer: "In Makkah, Saudi Arabia",
     options: [
+      "In Ta'if, Saudi Arabia"
       "In Makkah, Saudi Arabia",
       "In Madinah, Saudi Arabia",
       "In Jerusalem",
-      "In Ta'if, Saudi Arabia"
     ]
   },
   {
@@ -37,8 +37,8 @@ let questions = [
     question: "What is the name of the Prophet Muhammad's صلى الله عليه وسلم mother?",
     answer: "Aaminah bint Wahab ibn Abd-Manaf ibn Zuhra ibn Kilaab",
     options: [
-      "Aaminah bint Wahab ibn Abd-Manaf ibn Zuhra ibn Kilaab",
       "Khadijah bint Khuwaylid",
+      "Aaminah bint Wahab ibn Abd-Manaf ibn Zuhra ibn Kilaab",
       "Fatimah bint Muhammad",
       "Aisha bint Abu Bakr"
     ]
@@ -48,9 +48,9 @@ let questions = [
     question: "When and where did the Prophet Muhammad's صلى الله عليه وسلم father pass away?",
     answer: "He passed away in Yathrib (Madinah) before Muhammadصلى الله عليه وسلم was born",
     options: [
-      "He passed away in Yathrib (Madinah) before Muhammadصلى الله عليه وسلم was born",
       "He passed away in Makkah before Muhammadصلى الله عليه وسلم was born",
       "He passed away in Ta'if before Muhammadصلى الله عليه وسلم was born",
+      "He passed away in Yathrib (Madinah) before Muhammadصلى الله عليه وسلم was born",
       "He passed away in Jerusalem before Muhammadصلى الله عليه وسلم was born"
     ]
   },
@@ -59,10 +59,10 @@ let questions = [
     question: "What is the name of the Prophet Muhammad's صلى الله عليه وسلم paternal grandfather and what was his position?",
     answer: "Abdul Muttalib, who was the chief of his clan, the Bani Hashim",
     options: [
-      "Abdul Muttalib, who was the chief of his clan, the Bani Hashim",
+      "Uthman, who was the chief of his clan, the Bani Hashim"
       "Abu Talib, who was the chief of his clan, the Bani Hashim",
       "Abu Bakr, who was the chief of his clan, the Bani Hashim",
-      "Uthman, who was the chief of his clan, the Bani Hashim"
+      "Abdul Muttalib, who was the chief of his clan, the Bani Hashim",
     ]
   },
   {
@@ -81,10 +81,10 @@ let questions = [
     question: "Who was the Prophet Muhammad's صلى الله عليه وسلم first wet nurse?",
     answer: "Thuwaybah",
     options: [
-      "Thuwaybah",
+      "Shaymaa"
       "Halima bint Abi Dhuayb",
+      "Thuwaybah",
       "Barakah (Umm Ayman)",
-      "Al-Shifa bint Aouf (Umm Abdul Rahman)"
     ]
   },
   {
@@ -100,24 +100,24 @@ let questions = [
   },
   {
     numb: 10,
-    question: "What did Prophet Muhammad's صلى الله عليه وسلم mother name him?",
+    question: "What name was the Prophet known as in earlier scriptures?",
     answer: "Ahmad",
     options: [
-      "Ahmad",
-      "Muhammad",
       "Mustafa",
+      "Muhammad",
+      "Ahmad",
       "Mahmoud"
     ]
   },
   {
     numb: 11,
-    question: "Why did the Prophet Muhammad's صلى الله عليه وسلم mother choose this name?",
-    answer: "Because she saw an angel in a dream calling the new born baby Ahmad",
+    question: "What incident occurred when Prophet Muhammad's صلى الله عليه وسلم mother was pregnant?",
+    answer: "She saw an angel in a dream talking about the virtue of the baby",
     options: [
-      "Because she saw an angel in a dream calling the new born baby Ahmad",
-      "Because it was a family tradition",
-      "Because she liked the name",
-      "Because it was suggested by Abdul Muttalib"
+      "She fainted and the baby was born",
+      "She started seeing visions and hearing voices multiple times",
+      "She accepted monotheism"
+      "She saw an angel in a dream talking about the virtue of the baby",
     ]
   },
   {
@@ -125,8 +125,8 @@ let questions = [
     question: "In which year was the Prophet صلى الله عليه وسلم born?",
     answer: "Year of the Elephant (عام الفيل)",
     options: [
-      "Year of the Elephant (عام الفيل)",
       "520 AD",
+      "Year of the Elephant (عام الفيل)",
       "633 AD",
       "None of the option is correct"
     ]
