@@ -15,10 +15,10 @@ let questions = [
     question: "Where was the Prophet Muhammad صلى الله عليه وسلم born?",
     answer: "In Makkah, Saudi Arabia",
     options: [
-      "In Ta'if, Saudi Arabia"
+      "In Ta'if, Saudi Arabia",
       "In Makkah, Saudi Arabia",
       "In Madinah, Saudi Arabia",
-      "In Jerusalem",
+      "In Jerusalem"
     ]
   },
   {
@@ -59,10 +59,10 @@ let questions = [
     question: "What is the name of the Prophet Muhammad's صلى الله عليه وسلم paternal grandfather and what was his position?",
     answer: "Abdul Muttalib, who was the chief of his clan, the Bani Hashim",
     options: [
-      "Uthman, who was the chief of his clan, the Bani Hashim"
+      "Uthman, who was the chief of his clan, the Bani Hashim",
       "Abu Talib, who was the chief of his clan, the Bani Hashim",
       "Abu Bakr, who was the chief of his clan, the Bani Hashim",
-      "Abdul Muttalib, who was the chief of his clan, the Bani Hashim",
+      "Abdul Muttalib, who was the chief of his clan, the Bani Hashim"
     ]
   },
   {
@@ -81,10 +81,10 @@ let questions = [
     question: "Who was the Prophet Muhammad's صلى الله عليه وسلم first wet nurse?",
     answer: "Thuwaybah",
     options: [
-      "Shaymaa"
+      "Shaymaa",
       "Halima bint Abi Dhuayb",
       "Thuwaybah",
-      "Barakah (Umm Ayman)",
+      "Barakah (Umm Ayman)"
     ]
   },
   {
@@ -116,8 +116,8 @@ let questions = [
     options: [
       "She fainted and the baby was born",
       "She started seeing visions and hearing voices multiple times",
-      "She accepted monotheism"
-      "She saw an angel in a dream talking about the virtue of the baby",
+      "She accepted monotheism",
+      "She saw an angel in a dream talking about the virtue of the baby"
     ]
   },
   {
