@@ -24,13 +24,13 @@ exit_btn.onclick = () => {
 continue_btn.onclick = () => {
     info_box.classList.remove("activeInfo"); //hide info box
     quiz_box.classList.add("activeQuiz"); //show quiz box
-    showQuetions(0); //calling showQestions function
+    showQuestions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
-    startTimer(15); //calling startTimer function
+    startTimer(30); //calling startTimer function
     startTimerLine(0); //calling startTimerLine function
 }
 
-let timeValue = 15;
+let timeValue = 30;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
@@ -45,12 +45,12 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = () => {
     quiz_box.classList.add("activeQuiz"); //show quiz box
     result_box.classList.remove("activeResult"); //hide result box
-    timeValue = 15;
+    timeValue = 30;
     que_count = 0;
     que_numb = 1;
     userScore = 0;
     widthValue = 0;
-    showQuetions(que_count); //calling showQestions function
+    showQuestions(que_count); //calling showQestions function
     queCounter(que_numb); //passing que_numb value to queCounter
     clearInterval(counter); //clear counter
     clearInterval(counterLine); //clear counterLine
@@ -73,7 +73,7 @@ next_btn.onclick = () => {
     if (que_count < questions.length - 1) { //if question count is less than total question length
         que_count++; //increment the que_count value
         que_numb++; //increment the que_numb value
-        showQuetions(que_count); //calling showQuestions function
+        showQuestions(que_count); //calling showQuestions function
         queCounter(que_numb); //passing que_numb value to queCounter
         clearInterval(counter); //clear counter
         clearInterval(counterLine); //clear counterLine
@@ -88,24 +88,7 @@ next_btn.onclick = () => {
     }
 }
 
-//--------- getting questions and options from array -----------\\
-
-// function showQuetions() {
-//   const que_text = document.querySelector(".que_text");
-//   let randomIndex = Math.floor(Math.random() * questions.length);
-  
-//   let que_tag = '<span>' + questions[randomIndex].numb + ". " + questions[randomIndex].question + '</span>';
-//   let option_tag = '<div class="option"><span>' + questions[randomIndex].options[0] + '</span></div>'
-//       + '<div class="option"><span>' + questions[randomIndex].options[1] + '</span></div>'
-//       + '<div class="option"><span>' + questions[randomIndex].options[2] + '</span></div>'
-//       + '<div class="option"><span>' + questions[randomIndex].options[3] + '</span></div>';
-//   que_text.innerHTML = que_tag;
-//   option_list.innerHTML = option_tag;
-  
-//   const option = option_list.querySelectorAll(".option");
-// }
-
-function showQuetions(index) {
+function showQuestions(index) {
     const que_text = document.querySelector(".que_text");
 
     //creating a new span and div tag for question and option and passing the value using array index
@@ -212,9 +195,9 @@ function startTimer(time) {
 }
 
 function startTimerLine(time) {
-    counterLine = setInterval(timer, 29);
+    counterLine = setInterval(timer,56);
     function timer() {
-        time += 1; //upgrading time value with 1
+        time += 1 //upgrading time value [lower value means slower the timer line]
         time_line.style.width = time + "px"; //increasing width of time_line with px by time value
         if (time > 549) { //if time value is greater than 549
             clearInterval(counterLine); //clear counterLine
