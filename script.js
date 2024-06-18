@@ -1,19 +1,53 @@
+let questions = [];
+let quizNo = 0;
+
+// Fetch the questions from the JSON file
+fetch('questions.json')
+    .then(response => response.json())
+    .then(data => {
+        questions = data.questions;
+        quizNo = data.quiz_no;
+        document.querySelector('.quiz_no').innerHTML = "Quiz #" + quizNo;
+    })
+    .catch(error => console.error('Error fetching the questions:', error));
+
 //selecting all required elements
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
 const exit_btn = info_box.querySelector(".buttons .quit");
-const continue_btn = info_box.querySelector(".buttons .restart");
+const continue_btn = info_box.querySelector(".buttons .continue");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
 const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
+const skip_btn = document.querySelector(".skip_btn");
 
 // if startQuiz button clicked
 start_btn.onclick = () => {
     info_box.classList.add("activeInfo"); //show info box
 }
+
+// Add skip button functionality
+skip_btn.onclick = () => {
+    if (que_count < questions.length - 1) { // Check if there are more questions
+        que_count++; // Move to the next question index
+        que_numb++; // Increment question number
+        showQuestions(que_count); // Display next question
+        queCounter(que_numb); // Update question counter
+        clearInterval(counter); // Clear timer interval
+        clearInterval(counterLine); // Clear timer line interval
+        startTimer(timeValue); // Restart timer
+        startTimerLine(widthValue); // Restart timer line
+        timeText.textContent = "Time Left"; // Reset time text
+        next_btn.classList.remove("show"); // Hide next button
+    } else {
+        clearInterval(counter); // Clear timer interval
+        clearInterval(counterLine); // Clear timer line interval
+        showResult(); // Display quiz result
+    }
+};
 
 // if exitQuiz button clicked
 exit_btn.onclick = () => {
@@ -129,7 +163,6 @@ function optionSelected(answer) {
     } else {
         answer.classList.add("incorrect"); //adding red color to correct selected option
         answer.insertAdjacentHTML("beforeend", crossIconTag); //adding cross icon to correct selected option
-        console.log("Wrong Answer");
 
         for (i = 0; i < allOptions; i++) {
             if (option_list.children[i].textContent == correcAns) { //if there is an option which is matched to an array answer 
@@ -146,50 +179,63 @@ function optionSelected(answer) {
 }
 
 function showResult() {
-    info_box.classList.remove("activeInfo"); //hide info box
-    quiz_box.classList.remove("activeQuiz"); //hide quiz box
-    result_box.classList.add("activeResult"); //show result box
+    info_box.classList.remove("activeInfo"); // Hide info box
+    quiz_box.classList.remove("activeQuiz"); // Hide quiz box
+    result_box.classList.add("activeResult"); // Show result box
+
     const scoreText = result_box.querySelector(".score_text");
-    if (userScore > 15) { // if user scored more than 3
-        //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>and Well Done! , You got <p>' + userScore + '</p> out of <p>' + questions.length + '</p></span>';
-        scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
+
+    let scoreMessage;
+    if (userScore > 15) {
+        scoreMessage = "Well done! You got " + userScore + " out of " + questions.length + ".";
+    } else if (userScore > 8) {
+        scoreMessage = "You can do better! You got " + userScore + " out of " + questions.length + ".";
+    } else {
+        scoreMessage = "You need improvement! You got only " + userScore + " out of " + questions.length + ".";
     }
-    else if (userScore > 8) { // if user scored more than 1
-        let scoreTag = '<span>and You can do better! , You got <p>' + userScore + '</p> out of <p>' + questions.length + '</p></span>';
-        scoreText.innerHTML = scoreTag;
-    }
-    else { // if user scored less than 1
-        let scoreTag = '<span>and You need improvement! , You got only <p>' + userScore + '</p> out of <p>' + questions.length + '</p></span>';
-        scoreText.innerHTML = scoreTag;
-    }
+
+    // Construct the HTML content for displaying the score message
+    scoreText.innerHTML = '<div class="score-message">' + scoreMessage + '</div>';
+
+    // Optionally, you can add an emoji or icon to enhance the visual appeal
+    const iconElement = result_box.querySelector(".icon");
+    iconElement.innerHTML = "&#x1F389;"; // Example of an emoji
+
+    // Make the result box visible
+    result_box.style.opacity = "1";
+    result_box.style.pointerEvents = "auto";
 }
 
+
 function startTimer(time) {
+    timeCount.textContent = time; // set initial time count immediately
+
     counter = setInterval(timer, 1000);
+
     function timer() {
-        timeCount.textContent = time; //changing the value of timeCount with time value
-        time--; //decrement the time value
-        if (time < 9) { //if timer is less than 9
-            let addZero = timeCount.textContent;
-            timeCount.textContent = "0" + addZero; //add a 0 before time value
-        }
-        if (time < 0) { //if timer is less than 0
-            clearInterval(counter); //clear counter
-            timeText.textContent = "Time Off"; //change the time text to time off
-            const allOptions = option_list.children.length; //getting all option items
-            let correcAns = questions[que_count].answer; //getting correct answer from array
-            for (i = 0; i < allOptions; i++) {
-                if (option_list.children[i].textContent == correcAns) { //if there is an option which is matched to an array answer
-                    option_list.children[i].setAttribute("class", "option correct"); //adding green color to matched option
-                    option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to matched option
-                    console.log("Time Off: Auto selected correct answer.");
+        time--; // decrement the time value
+
+        if (time >= 0) {
+            timeCount.textContent = time < 10 ? "0" + time : time; // update the displayed time
+        } else {
+            clearInterval(counter);
+            timeText.textContent = "Time Off";
+            const allOptions = option_list.children.length;
+            let correcAns = questions[que_count].answer;
+
+            for (let i = 0; i < allOptions; i++) {
+                if (option_list.children[i].textContent === correcAns) {
+                    option_list.children[i].setAttribute("class", "option correct");
+                    option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag);
                 }
             }
-            for (i = 0; i < allOptions; i++) {
-                option_list.children[i].classList.add("disabled"); //once user select an option then disabled all options
+
+            for (let i = 0; i < allOptions; i++) {
+                option_list.children[i].classList.add("disabled");
             }
-            next_btn.classList.add("show"); //show the next button if user selected any option
+
+            next_btn.classList.add("show");
+            skip_btn.style.display = "none"; // hide the skip button
         }
     }
 }
