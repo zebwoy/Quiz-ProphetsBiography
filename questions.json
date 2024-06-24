@@ -18,9 +18,9 @@
       "answer": "Dar Al Nadwa",
       "options": [
         "Kaaba",
-        "Dar Al Nadwa",
         "Masjid al-Haram",
-        "Bait Al-Maqdis"
+        "Dar Al Nadwa",
+        "Dar Al Arqam"
       ]
     },
     {
@@ -48,10 +48,10 @@
     {
       "numb": 5,
       "question": "To whom did Qusay ibn Kilab give his entire estate?",
-      "answer": "Eldest son, Abd ud-Dar",
+      "answer": "Abd ud-Dar",
       "options": [
         "Abd Manaaf",
-        "Harith, his firstborn",
+        "Abd al-uzza",
         "Abd ud-Dar",
         "None of his sons"
       ]
@@ -103,7 +103,7 @@
     {
       "numb": 10,
       "question": "What was Abd al-Muttalib's actual name?",
-      "answer": "Shaiba. His uncle's name was al-Muttalib and people called him the slave of al-Muttalib",
+      "answer": "Shaiba",
       "options": [
         "Hashim",
         "Shaiba",
@@ -125,7 +125,7 @@
     {
       "numb": 12,
       "question": "Was Abdullah the eldest son of Abd al-Muttalib?",
-      "answer": "No",
+      "answer": "No, he was the youngest",
       "options": [
         "Yes",
         "No, he was the youngest",
@@ -169,10 +169,10 @@
     {
       "numb": 16,
       "question": "Did Abd al-Muttalib fulfill his vow?",
-      "answer": "No, he threw arrows in the sky, played lottery with camels, and decided to sacrifice 100 camels.",
+      "answer": "No, he threw arrows in the sky, played lottery of camels, and decided to sacrifice 100 camels",
       "options": [
         "Yes, he completely fulfilled his vow as promised",
-        "No, he threw arrows in the sky, played lottery with camels, and decided to sacrifice 100 camels",
+        "No, he threw arrows in the sky, played lottery of camels, and decided to sacrifice 100 camels",
         "He postponed the vow indefinitely",
         "He forgot about his vow and never fulfilled it"
       ]
@@ -191,7 +191,7 @@
     {
       "numb": 18,
       "question": "Who among the sons of Abd al-Muttalib lived to see Islam but did not accept it?",
-      "answer": "Abd-Manaaf (kunya: Abu Talib) and Abdul Uzza (kunya: Abu Lahab)",
+      "answer": "Abd-Manaaf (Abu Talib) and Abdul Uzza (Abu Lahab)",
       "options": [
         "Az-Zubayr and Abu Talib",
         "Abd-Manaaf (Abu Talib) and Abdul Uzza (Abu Lahab)",
@@ -215,10 +215,10 @@
       "question": "To whom did Abd al-Muttalib choose as Abdullah's bride?",
       "answer": "Aminah bint Wahb who lived in Yathrib",
       "options": [
-        "Khadijah bint Khuwaylid",
+        "Amama bint ysuuf who lived in Makka",
         "Aminah bint Wahb who lived in Yathrib",
-        "Fatimah bint Asad",
-        "Sawda bint Zam'a"
+        "Fatimah bint Asad who lived in Yathrib",
+        "Sawda bint Zam'a who lived in Taif"
       ]
     }
   ]
