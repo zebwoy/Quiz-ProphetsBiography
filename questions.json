@@ -1,224 +1,224 @@
 {
-  "quiz_no": 3,
+  "quiz_no": 4,
   "questions": [
     {
       "numb": 1,
-      "question": "Who took care of the Prophet Muhammad صلى الله عليه وسلم after the death of his grandfather Abdul Muttalib?",
-      "answer": "His uncle Abu Talib",
+      "question": "Whom did Fihr (Quraish) favor in the conflict between Qusay (Jurhum) and Khuzah?",
+      "answer": "Qusay ibn Kilab (Jurhum)",
       "options": [
-        "His uncle Abu Lahab",
-        "His uncle Abu Talib",
-        "His aunt Safiyyah",
-        "His cousin Ali"
+        "Khuzah",
+        "Qusay ibn Kilab (Jurhum)",
+        "Both",
+        "None"
       ]
     },
     {
       "numb": 2,
-      "question": "Which clan was the Prophet Muhammad صلى الله عليه وسلم from?",
-      "answer": "Banu Haashim and Quraish",
+      "question": "What building did Qusay build?",
+      "answer": "Dar Al Nadwa",
       "options": [
-        "Banu Umayya",
-        "Banu Zuhra",
-        "Banu Haashim and Quraish",
-        "Banu Makhzum"
+        "Kaaba",
+        "Dar Al Nadwa",
+        "Masjid al-Haram",
+        "Bait Al-Maqdis"
       ]
     },
     {
       "numb": 3,
-      "question": "What work did the Prophet Muhammad صلى الله عليه وسلم do until the age of 40?",
-      "answer": "Shepherd and trader",
+      "question": "What activities took place in Dar Al Nadwa pre-Islam?",
+      "answer": "Events, announcements, war planning, weddings, girls starting to wear abaya",
       "options": [
-        "Farmer",
-        "Blacksmith",
-        "Shepherd and trader",
-        "Carpenter"
+        "Trading",
+        "Religious gatherings",
+        "Events, announcements, war planning, weddings, girls starting to wear abaya",
+        "Educational discussions"
       ]
     },
     {
       "numb": 4,
-      "question": "When did Muhammad صلى الله عليه وسلم travel to Syria and with whom?",
-      "answer": "With his uncle Abu Talib at age 12",
+      "question": "Why did Dar Al Nadwa become famous post-Islam?",
+      "answer": "Plotting of Prophet's assassination",
       "options": [
-        "With his uncle Abu Talib at age 12",
-        "With his father at age 10",
-        "With his grandfather at age 14",
-        "With his cousin at age 15"
+        "First Islamic sermon",
+        "Plotting of Prophet's assassination",
+        "Treaty of Hudaybiyyah",
+        "Conquest of Mecca"
       ]
     },
     {
       "numb": 5,
-      "question": "Who was Khadijah (R.A)?",
-      "answer": "A wealthy businesswoman of Makkah",
+      "question": "To whom did Qusay ibn Kilab give his entire estate?",
+      "answer": "Eldest son, Abd ud-Dar",
       "options": [
-        "A wealthy businesswoman of Makkah",
-        "A trader from Yemen",
-        "A shepherd in Madinah",
-        "A farmer in Ta'if"
+        "Abd Manaaf",
+        "Harith, his firstborn",
+        "Abd ud-Dar",
+        "None of his sons"
       ]
     },
     {
       "numb": 6,
-      "question": "Why did Khadijah (R.A) want to marry Muhammad صلى الله عليه وسلم?",
-      "answer": "Because of his truthfulness and good conduct",
+      "question": "What happened to Qusay's brothers?",
+      "answer": "They got their right from their nephews but after a huge fight was about to start between them",
       "options": [
-        "Because of his wealth",
-        "Because of his truthfulness and good conduct",
-        "Because of his family status",
-        "Because of his physical strength"
+        "They were exiled",
+        "They took over the estate",
+        "They got their right from their nephews but after a huge fight was about to start between them",
+        "They were disinherited"
       ]
     },
     {
       "numb": 7,
-      "question": "At what age did Khadijah (R.A) marry Muhammad صلى الله عليه وسلم?",
-      "answer": "40 years old",
+      "question": "Among the sons of Qusay, to which son is the Prophet related?",
+      "answer": "Abd Manaaf",
       "options": [
-        "25 years old",
-        "30 years old",
-        "35 years old",
-        "40 years old"
+        "Harith",
+        "Abd al-Dar",
+        "Abd Manaaf",
+        "Abd Shams"
       ]
     },
     {
       "numb": 8,
-      "question": "How old was Muhammad صلى الله عليه وسلم at the time of the marriage?",
-      "answer": "25 years old",
+      "question": "Who among the Sahabas acquired Dar Al Nadwa?",
+      "answer": "Hakim ibn Hizam",
       "options": [
-        "25 years old",
-        "20 years old",
-        "30 years old",
-        "35 years old"
+        "Abu Bakr",
+        "Umar ibn al-Khattab",
+        "Hakim ibn Hizam",
+        "Ali ibn Abi Talib"
       ]
     },
     {
       "numb": 9,
-      "question": "What did the Prophet Muhammad صلى الله عليه وسلم give his wife Khadijah as Mahr (dowry)?",
-      "answer": "Twenty camels",
+      "question": "What price did Hakim pay for Dar Al Nadwa?",
+      "answer": "A bottle of wine",
       "options": [
-        "Fifteen camels",
-        "Ten camels",
-        "Twenty camels",
-        "Thirty camels"
+        "100 gold coins",
+        "A herd of camels",
+        "A bottle of wine",
+        "His house"
       ]
     },
     {
       "numb": 10,
-      "question": "Was Khadijah (R.A) a widow before she married the Prophet Muhammad صلى الله عليه وسلم?",
-      "answer": "Yes, she was a widow",
+      "question": "What was Abd al-Muttalib's actual name?",
+      "answer": "Shaiba. His uncle's name was al-Muttalib and people called him the slave of al-Muttalib",
       "options": [
-        "Yes, she was a widow",
-        "No, she was divorced",
-        "No, she was never married",
-        "Yes, she was separated"
+        "Hashim",
+        "Shaiba",
+        "Abdullah",
+        "Abbas"
       ]
     },
     {
       "numb": 11,
-      "question": "How many children did the Prophet صلى الله عليه وسلم have with Khadijah (R.A)?",
-      "answer": "4 daughters and 2 sons",
+      "question": "How many children did Abd al-Muttalib have?",
+      "answer": "16. 10 boys and 6 girls",
       "options": [
-        "2 daughters and 2 sons",
-        "4 daughters and 2 sons",
-        "3 daughters and 3 sons",
-        "4 daughters and 1 son"
+        "10. 5 boys and 5 girls",
+        "12. 6 boys and 6 girls",
+        "16. 10 boys and 6 girls",
+        "20. 12 boys and 8 girls"
       ]
     },
     {
       "numb": 12,
-      "question": "Did the Prophet صلى الله عليه وسلم have any other children?",
-      "answer": "Yes, one son named Ibrahim",
+      "question": "Was Abdullah the eldest son of Abd al-Muttalib?",
+      "answer": "No",
       "options": [
-        "Yes, one son named Ibrahim",
-        "No, only children with Khadijah",
-        "Yes, two sons from other wives",
-        "Yes, three daughters from other wives"
+        "Yes",
+        "No, he was the youngest",
+        "He was the second eldest",
+        "No, he was not a son at all"
       ]
     },
     {
       "numb": 13,
-      "question": "Name the 11 wives of the Prophet صلى الله عليه وسلم.",
-      "answer": "Khadijah, Sawdah, Aaisha, Hafsah, Zaynab bint Jahsh, Umm Salamah, Zaynab bint Khuzaymah, Juwairiyah, Umm Habeebah, Safiyyah, Maymoonah",
+      "question": "With which son was Abd al-Muttalib guided towards the rediscovery of the Zamzam well?",
+      "answer": "Harith, eldest son",
       "options": [
-        "Khadijah, Sawdah, Aaisha, Hafsah, Zaynab bint Jahsh, Umm Salamah, Zaynab bint Khuzaymah, Juwairiyah, Umm Habeebah, Safiyyah, Maymoonah",
-        "Khadijah, Sawdah, Aaisha, Hafsah, Umm Salamah, Zaynab bint Khuzaymah, Juwairiyah, Umm Habeebah, Safiyyah, Maymoonah, Ramlah",
-        "Khadijah, Sawdah, Aaisha, Hafsah, Zaynab bint Jahsh, Umm Salamah, Zaynab bint Khuzaymah, Umm Habeebah, Safiyyah, Maymoonah, Fatimah",
-        "Khadijah, Aaisha, Hafsah, Zaynab bint Jahsh, Umm Salamah, Zaynab bint Khuzaymah, Juwairiyah, Umm Habeebah, Safiyyah, Maymoonah, Fatimah"
+        "Abu Talib",
+        "Abbas",
+        "Harith, eldest son",
+        "Abdullah"
       ]
     },
     {
       "numb": 14,
-      "question": "Name the son-in-laws of the Prophet صلى الله عليه وسلم.",
-      "answer": "Uthman ibn Affan, Ali ibn Abi Talib, Abul Aas ibn Al-Rabi'",
+      "question": "How many clues were given to Abd al-Muttalib in his dream regarding the location of the Zamzam well?",
+      "answer": "3",
       "options": [
-        "Ali ibn Abi Talib, Umar ibn Khattab, Abul Aas ibn Al-Rabi'",
-        "Uthman ibn Affan, Ali ibn Abi Talib, Abul Aas ibn Al-Rabi'",
-        "Uthman ibn Affan, Abu Bakr, Abul Aas ibn Al-Rabi'",
-        "Uthman ibn Affan, Ali ibn Abi Talib, Khalid ibn Walid"
+        "1",
+        "2",
+        "3",
+        "4"
       ]
     },
     {
       "numb": 15,
-      "question": "Name the grandchildren of the Prophet صلى الله عليه وسلم.",
-      "answer": "Ali, Umaamah, Abdullah, Al-Hasan, Al-Hussain, Muhsin, Umm Kulthoom, Zaynab",
+      "question": "Did Abd al-Muttalib share the Zamzam well with other chiefs of Quraish?",
+      "answer": "No, instead went to Kahina, the fortune teller for advice",
       "options": [
-        "Ali, Abdullah, Al-Hasan, Al-Hussain, Umm Kulthoom, Zaynab",
-        "Umaamah, Abdullah, Al-Hasan, Al-Hussain, Muhsin, Umm Kulthoom, Zaynab",
-        "Ali, Umaamah, Abdullah, Al-Hasan, Al-Hussain, Muhsin, Umm Kulthoom, Zaynab",
-        "Ali, Abdullah, Al-Hasan, Al-Hussain, Muhsin, Umm Kulthoom, Zaynab"
+        "No, instead went to Kahina, the fortune teller for advice",
+        "Yes",
+        "He sold it to them for 100 camels",
+        "He ignored them and everyone forgave him"
       ]
     },
     {
       "numb": 16,
-      "question": "Were all the wives of the Prophet صلى الله عليه وسلم widows or divorcees before they married him?",
-      "answer": "Yes, all except Aaisha (R.A.)",
+      "question": "Did Abd al-Muttalib fulfill his vow?",
+      "answer": "No, he threw arrows in the sky, played lottery with camels, and decided to sacrifice 100 camels.",
       "options": [
-        "No, all were never married before",
-        "Yes, all were widows",
-        "Yes, all except Aaisha (R.A.)",
-        "No, some were divorced"
+        "Yes, he completely fulfilled his vow as promised",
+        "No, he threw arrows in the sky, played lottery with camels, and decided to sacrifice 100 camels",
+        "He postponed the vow indefinitely",
+        "He forgot about his vow and never fulfilled it"
       ]
     },
     {
       "numb": 17,
-      "question": "Name the 6 paternal aunties of the Prophet صلى الله عليه وسلم.",
-      "answer": "Safiyyah, Arwa, Aatiqah, Umm Hakeem al-Baida, Barrah, Umaymah",
+      "question": "Among the sons of Abd al-Muttalib, who accepted Islam?",
+      "answer": "Hamza and Al-Abbas",
       "options": [
-        "Safiyyah, Arwa, Aatiqah, Umm Hakeem al-Baida, Barrah, Umaymah",
-        "Safiyyah, Arwa, Umm Hakeem al-Baida, Barrah, Umaymah, Ruqayyah",
-        "Safiyyah, Arwa, Aatiqah, Umm Hakeem al-Baida, Umaymah, Ruqayyah",
-        "Safiyyah, Aatiqah, Umm Hakeem al-Baida, Barrah, Umaymah, Ruqayyah"
+        "Hamza and Al-Abbas",
+        "Abu Talib and Abu Lahab",
+        "Abbas and Abdullah",
+        "Hajl and Muqawwim"
       ]
     },
     {
       "numb": 18,
-      "question": "Name the grandmothers of the Prophet صلى الله عليه وسلم.",
-      "answer": "Faatimah bint Omar and Barrah bint Abdul Uzza",
+      "question": "Who among the sons of Abd al-Muttalib lived to see Islam but did not accept it?",
+      "answer": "Abd-Manaaf (kunya: Abu Talib) and Abdul Uzza (kunya: Abu Lahab)",
       "options": [
-        "Faatimah bint Omar and Barrah bint Abdul Uzza",
-        "Faatimah bint Omar and Aminah bint Wahb",
-        "Halah bint Wahb and Barrah bint Abdul Uzza",
-        "Aminah bint Wahb and Halah bint Wahb"
+        "Az-Zubayr and Abu Talib",
+        "Abd-Manaaf (Abu Talib) and Abdul Uzza (Abu Lahab)",
+        "Hamza and Abbas",
+        "Abbas and Ad-Dirar"
       ]
     },
     {
       "numb": 19,
-      "question": "How many times is the name of Muhammad صلى الله عليه وسلم mentioned in the Holy Quran?",
-      "answer": "Four times",
+      "question": "Who was most beloved to Abd al-Muttalib?",
+      "answer": "Abdullah",
       "options": [
-        "Three times",
-        "Four times",
-        "Five times",
-        "Six times"
+        "Hamza",
+        "Abdullah",
+        "Al-Abbas",
+        "Harith"
       ]
     },
     {
       "numb": 20,
-      "question": "How was Muhammad صلى الله عليه وسلم known in his society?",
-      "answer": "Al-Saadiq and Al-Ameen",
+      "question": "To whom did Abd al-Muttalib choose as Abdullah's bride?",
+      "answer": "Aminah bint Wahb who lived in Yathrib",
       "options": [
-        "Al-Saadiq and Al-Kareem",
-        "Al-Saadiq and Al-Ameen",
-        "Al-Ameen and Al-Rasheed",
-        "Al-Saadiq and Al-Raheem"
+        "Khadijah bint Khuwaylid",
+        "Aminah bint Wahb who lived in Yathrib",
+        "Fatimah bint Asad",
+        "Sawda bint Zam'a"
       ]
     }
   ]
